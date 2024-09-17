@@ -1,0 +1,23 @@
+mern-app/
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js                     # Database connection configuration using Mongoose
+│   ├── middleware/
+│   │   └── verifyToken.js             # Middleware for verifying JWT tokens
+│   ├── models/
+│   │   ├── Cart.js                    # Cart model schema and definition
+│   │   ├── Customer.js                # Customer model schema and definition
+│   │   ├── Product.js                 # Product model schema and definition
+│   │   └── Wishlist.js                # Wishlist model schema and definition
+│   ├── routes/
+│   │   ├── Accounts.js                # Routes for account management (signup/login)
+│   │   ├── Cart.js                    # Routes for cart management
+│   │   ├── Products.js                # Routes for product management
+│   │   └── Wishlist.js                # Routes for wishlist management
+│   ├── .env                           # Environment variables for the project (MONGODB_URI, JWT_SECRET, etc.)
+│   ├── package.json                   # Package file for dependencies
+│   ├── server.js                      # Main entry point for the backend server
+│   └── README.md                      # Documentation file for the backend (optional)
+│
+└── frontend/                          # (This folder can be created for the frontend, not defined in your code)
